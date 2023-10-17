@@ -23,7 +23,7 @@ webpki-roots = { version = "0.22", optional = true }
 [dev-dependencies]
 futures-util = { version = "0.3.1", default-features = false }
 #hyper = { version = "0.14", features = ["full"] }
-hyper = { git = "https://github.com/disoul/hyper", rev = "711b1b1", default-features = false, features = ["full"] }
+hyper = { git = "https://github.com/disoul/hyper", rev = "00652b1", default-features = false, features = ["full"] }
 rustls = { version = "0.20.1", default-features = false, features = ["tls12"] }
 rustls-pemfile = "1.0.0"
 tokio = { version = "1.0", features = ["io-std", "macros", "net", "rt-multi-thread"] }
